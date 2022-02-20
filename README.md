@@ -1,9 +1,10 @@
 # Intentions
-To better understand golang i rewrited port scanner that i created in rust and add more functionalitis
+To better understand golang i write port scanner
 
 ## Keypoint
-- Multithreading and wait groups (sync.WaitGroup)
+- Concurrency and wait groups (sync.WaitGroup)
 - Dealing with multiple gorutines writes to one variable (sync.Mutex)
+- Logging with channels (chan)
 - Usage of orm in go (gorm)
 
 # Usage
@@ -14,5 +15,3 @@ To better understand golang i rewrited port scanner that i created in rust and a
 - ```-t``` scan range
 - ```-T``` timeout in seconds
 - ```-s``` save output to sqlite database
-
-# 
